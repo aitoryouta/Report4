@@ -7,7 +7,7 @@ public class Re4_step2 {
             String str = null;
             System.out.println(str.length());
         } catch (NullPointerException e) {
-            System.out.println("間違えています");
+            System.out.println("間違えています"+e);
 
         }
     }
